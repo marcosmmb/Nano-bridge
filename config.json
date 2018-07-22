@@ -1,6 +1,6 @@
 {
     "host" : "",
-    "port" : "6060",
+    "port" : 6060,
     "uri" : "http://[::1]:7076",
     "timeout" : "5",
     "ip-api" : "https://api.ipify.org"

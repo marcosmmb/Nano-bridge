@@ -31,7 +31,7 @@ def defaultHost(api = config("ip-api")):
 def sendRpcRequest(data):
     data = json.dumps(data)
 
-    response = requests.post(config("uri"), data = data, timeout = float(config("timeout")) )
+    response = requests.post(config("uri"), data = data)
     if not response.ok:
         return None
     resp_dict = json.loads(response.text)
